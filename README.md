@@ -1,4 +1,4 @@
-# MasteringROS
+# MasteringGazebo
 
 ## packages that are needed (incomplete list, being updated)
 
