@@ -6,7 +6,7 @@ turtlebot3_gazebo
 	
     sudo apt-get install ros-noetic-turtlebot3-msgs
     
- It may be easier to use rosdep to get dependencies. [Rosdep instructions] [http://wiki.ros.org/rosdep]
+ It may be easier to use rosdep to get dependencies. [Rosdep instructions](http://wiki.ros.org/rosdep)
  
  
 
