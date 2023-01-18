@@ -1,10 +1,14 @@
-# MasteringGazebo
+## packages that are needed (incomplete list, being updated)
 
-This is the catkin workspace from the mastering gazebo ros course.
+- turtlebot3_gazebo
+	sudo apt-get install ros-noetic-turtlebot3
+	sudo apt-get install ros-noetic-turtlebot3-msgs
+	
 
-## Dependencies
+## other instructions
 
-required ros packages:
+	Before using commands from rosbash and before using catkin_make:
 
-- not sure, in progress
-
+- need to source /opt/ros/noetic/setup.sh and source /opt/ros/noetic/setup.sh
+- need to source ./devel/setup.sh from the catkin_ws that is in the MasteringGazebo
+- need to run rosrun gazebo_ros gazebo in a seperate terminal in order to start any node that uses gazebo services
