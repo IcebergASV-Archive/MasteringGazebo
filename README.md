@@ -1,12 +1,19 @@
 ## packages that are needed (incomplete list, being updated)
 
+
+ Use rosdep to get build dependencies. [Rosdep instructions](http://wiki.ros.org/rosdep)
+
+Packages that have nodes that are used:
+
 turtlebot3_gazebo
 
     sudo apt-get install ros-noetic-turtlebot3
 	
     sudo apt-get install ros-noetic-turtlebot3-msgs
-    
- It may be easier to use rosdep to get dependencies. [Rosdep instructions](http://wiki.ros.org/rosdep)
+
+gmapping if you want to use gmapping, of course
+
+    sudo apt-get install ros-noetic-slam-gmapping
  
  
 

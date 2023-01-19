@@ -1,0 +1,6 @@
+  map_update_interval: 15.0
+  maxURange: 3
+  xmin: -100
+  ymin: -100
+  xmax: 100
+  ymax: 100
