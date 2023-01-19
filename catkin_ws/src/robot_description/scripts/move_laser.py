@@ -15,8 +15,8 @@ def main():
     rate = rospy.Rate(10)  # 10hz
     while not rospy.is_shutdown():
         msg = Twist()
-        msg.linear.x = 0.3
-        msg.angular.z = 0.3
+        msg.linear.x = -0.0
+        msg.angular.z = 0.2
         pub.publish(msg)
         rate.sleep()
 
