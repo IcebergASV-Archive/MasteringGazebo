@@ -1,0 +1,6 @@
+<launch>
+    <node pkg="base_link_publisher" name="base_link_publisher" type="base_link_publisher">
+        <!-- <remap from="input" to="turtlesim1/turtle1"/> /-->
+        <!-- <remap from="output" to="turtlesim2/turtle1"/> /-->
+    </node>
+</launch>
